@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f3f1ec;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --line: #ddd6cb;
+  --accent: #1f4e5a;
+  --accent-soft: #e4eef0;
+  --critical: #9f1239;
+  --critical-bg: #ffe4e6;
+  --high: #b42318;
+  --high-bg: #fde4e1;
+  --medium: #b45309;
+  --medium-bg: #ffedd5;
+  --low: #1d4ed8;
+  --low-bg: #dbeafe;
+  --info: #44403c;
+  --info-bg: #e7e5e4;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  @apply antialiased;
+}
